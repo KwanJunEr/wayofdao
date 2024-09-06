@@ -1,0 +1,16 @@
+.extra{
+    line-height: 50px;
+}
+
+.rotate-image {
+    animation: rotate360 55s linear infinite; /* 4 seconds duration, infinite loop */
+  }
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

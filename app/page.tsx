@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Hero from "@/components/Hero";
+import AboutUs from "@/components/AboutUs";
 
 export default function Home() {
   const router = useRouter();
@@ -29,6 +30,7 @@ export default function Home() {
       {/* Header */}
       <Header function1={handleLogin} />
       <Hero/>
+      <AboutUs/>
       
     </div>
   );
