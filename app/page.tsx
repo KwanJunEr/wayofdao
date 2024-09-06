@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Hero from "@/components/Hero";
 import AboutUs from "@/components/AboutUs";
+import CAT from "@/components/Cat";
 
 export default function Home() {
   const router = useRouter();
@@ -31,6 +32,7 @@ export default function Home() {
       <Header function1={handleLogin} />
       <Hero/>
       <AboutUs/>
+      <CAT/>
       
     </div>
   );
