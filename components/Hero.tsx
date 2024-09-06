@@ -14,7 +14,7 @@ const Hero = () => {
         <Tag color="purple" style={{width:320}}><p className='text-base font-bold'>A Proud Solana Project Presented to You</p></Tag>
           <FlipText word="The Way of DAO" className='text-6xl font-bold  text-left'/>
           <p className='text-2xl mb-6 text-justify'>
-          Empowering Cross-DAO
+          Empowering Solana Inter-DAO
           Collaboration
           </p>
           <div className='flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-5'>

@@ -5,6 +5,9 @@ import { useRouter } from "next/navigation";
 import Hero from "@/components/Hero";
 import AboutUs from "@/components/AboutUs";
 import CAT from "@/components/Cat";
+import Features from "@/components/Features";
+
+
 
 export default function Home() {
   const router = useRouter();
@@ -31,7 +34,9 @@ export default function Home() {
       {/* Header */}
       <Header function1={handleLogin} />
       <Hero/>
+ 
       <AboutUs/>
+      <Features/>
       <CAT/>
       
     </div>
